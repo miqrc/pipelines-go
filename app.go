@@ -62,3 +62,4 @@ func Home(w http.ResponseWriter, req *http.Request) {
 	}
 	render(w, "index.html", pageVars)
 }
+
